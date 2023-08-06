@@ -1,13 +1,10 @@
 FROM node:carbon
-# Create app directory
 WORKDIR /usr/src/wlogs
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
 COPY package*.json ./
-RUN apt-get update && apt-get upgrade -y && \
-    apt-get install -y nodejs \
-    npm                      
+
+RUN npm install
+RUN npm run build
+
 # note this one
 
 #To bundle your app’s source code inside the Docker image, use the COPY instruction:
