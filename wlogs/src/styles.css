@@ -1,0 +1,101 @@
+.container{
+    height: 100vh;
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.trial-of-the-crusader{
+    border: 1px solid #555555;
+    background-color: #141414;
+    margin: 10px;
+    max-width: 1168px;
+}
+.toc-logo{
+    float: left;
+    border-right: 1px solid #555555;
+    width: 80px;
+    height: 80px;
+    border-bottom: 1px solid #555555;
+}
+.toc-ranks{
+    display:flex;
+    flex-direction:column;
+}
+.toc-title{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    border-bottom: 1px solid #555;
+}
+.toc-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0px;
+    background-color: #141414;
+}
+.tile-subbox{
+    padding: 2px;
+    background-color: black;
+    border: 1px solid #555555;
+    margin-left: 10px;
+}
+.tile-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.tile-list{
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-block-end: 0;
+    font-size: 13px;
+}
+.sidebar-item {
+    position: relative;
+    clear: both;
+    display: list-item;
+    list-style-type: none;
+}
+.tile-subbox .sidebar-line {
+    padding: 5px 10px;
+    overflow: visible;
+    position: relative;
+    min-width: 300px;
+}
+.sidebar-zone-icon{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 10px;
+    border: none;
+}
+.tile-guild-name{
+    color: rgb(224, 41, 41);
+    overflow: visible;
+    line-height: normal;
+}
+.primary{
+    float:right;
+}
+.tile-guild-commands{
+    display: table;
+    color: #808080 !important;
+    z-index: 2;
+    position: relative;
+}
+.sidebar-line-contents{
+    margin-left: 40px;
+    overflow: visible;
+    line-height: normal;
+    position: relative;
+}

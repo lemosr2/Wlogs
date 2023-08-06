@@ -1,0 +1,8 @@
+{
+  "short_name": "WLog BR",
+  "name": "WLog BR",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

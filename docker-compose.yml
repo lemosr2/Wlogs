@@ -6,5 +6,3 @@ services:
     build:
       context: .
       dockerfile: WlogsAPI/Dockerfile
-    environment:
-      api_key: "7bce170c1e89bd1aa12f675db8026563"
