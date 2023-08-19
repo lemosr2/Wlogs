@@ -99,3 +99,7 @@
     line-height: normal;
     position: relative;
 }
+
+.rank-filter{
+    display: flex;
+}
